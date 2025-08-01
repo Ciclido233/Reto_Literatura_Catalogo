@@ -22,6 +22,7 @@
 
 ## 📦 Estructura del Proyecto
 
+```text
 literatura/
 ├── src/
 │   ├── main/
@@ -44,6 +45,8 @@ literatura/
 │   │   └── resources/
 │   │       └── application.properties (Configuración PostgreSQL)
 │   └── pom.xml                  (Dependencias Maven)
+```
+
 
 ## 🚀 Instalación y Ejecución (Paso a Paso)
 

@@ -24,26 +24,26 @@
 
 literatura/
 ├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/
-│       │       └── alura/
-│       │           └── literatura/
-│       │               ├── Main.java                  (Clase principal)
-│       │               ├── model/                     (Modelos de datos)
-│       │               │   ├── Autor.java             (Entidad Autor)
-│       │               │   └── Libro.java             (Entidad Libro)
-│       │               ├── repository/                (Conexión con BD)
-│       │               │   ├── AutorRepository.java   (Operaciones autores)
-│       │               │   └── LibroRepository.java   (Operaciones libros)
-│       │               ├── service/                   (Lógica principal)
-│       │               │   ├── APIService.java        (Consume API Gutendex)
-│       │               │   └── MenuService.java       (Menú interactivo)
-│       │               └── dto/                       (Objetos API)
-│       │                   └── DatosLibro.java        (Mapeo JSON)
-│       └── resources/
-│           └── application.properties       (Configuración PostgreSQL)
-└── pom.xml                                (Dependencias Maven)
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── alura/
+│   │   │           └── literatura/
+│   │   │               ├── Main.java             (Clase principal)
+│   │   │               ├── model/                (Modelos de datos)
+│   │   │               │   ├── Autor.java        (Entidad Autor)
+│   │   │               │   └── Libro.java        (Entidad Libro)
+│   │   │               ├── repository/           (Conexión con BD)
+│   │   │               │   ├── AutorRepository.java  (Operaciones autores)
+│   │   │               │   └── LibroRepository.java  (Operaciones libros)
+│   │   │               ├── service/              (Lógica principal)
+│   │   │               │   ├── APIService.java       (Consume API Gutendex)
+│   │   │               │   └── MenuService.java     (Menú interactivo)
+│   │   │               └── dto/                  (Objetos API)
+│   │   │                   └── DatosLibro.java   (Mapeo JSON)
+│   │   └── resources/
+│   │       └── application.properties (Configuración PostgreSQL)
+│   └── pom.xml                  (Dependencias Maven)
 
 ## 🚀 Instalación y Ejecución (Paso a Paso)
 

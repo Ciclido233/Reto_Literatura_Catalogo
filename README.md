@@ -22,6 +22,7 @@
 
 ## 📦 Estructura del Proyecto
 
+
 literatura/
 ├── src/
 │ ├── main/
@@ -40,13 +41,16 @@ literatura/
 │ │ │ └── DatosLibro.java # Mapeo JSON de API
 │ │ └── resources/
 │ │ └── application.properties # Configuración DB
-├── pom.xml # Configuración Maven
+├── pom.xml # Configuración Maven
+
 
 ## 🚀 Instalación y Ejecución (Paso a Paso)
 
 ### 1. Crear base de datos en PostgreSQL
 ```sql
 CREATE DATABASE literatura-1
+
+Edita src/main/resources/application.properties con:
 
 spring.datasource.url=jdbc:postgresql://localhost:tu_numero_de_server/literatura-1
 spring.datasource.username=tu_usuario

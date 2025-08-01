@@ -22,27 +22,28 @@
 
 ## 📦 Estructura del Proyecto
 
-
 literatura/
 ├── src/
-│ ├── main/
-│ │ ├── java/com/alura/literatura/
-│ │ │ ├── Main.java # Punto de entrada
-│ │ │ ├── model/ # Entidades JPA
-│ │ │ │ ├── Autor.java # Modelo de autor
-│ │ │ │ └── Libro.java # Modelo de libro
-│ │ │ ├── repository/ # Repositorios de datos
-│ │ │ │ ├── AutorRepository.java # Consultas de autores
-│ │ │ │ └── LibroRepository.java # Consultas de libros
-│ │ │ ├── service/ # Lógica de negocio
-│ │ │ │ ├── APIService.java # Consumo de Gutendex API
-│ │ │ │ └── MenuService.java # Interfaz de usuario
-│ │ │ └── dto/ # Objetos de transferencia
-│ │ │ └── DatosLibro.java # Mapeo JSON de API
-│ │ └── resources/
-│ │ └── application.properties # Configuración DB
-├── pom.xml # Configuración Maven
-
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── alura/
+│       │           └── literatura/
+│       │               ├── Main.java                  (Clase principal)
+│       │               ├── model/                     (Modelos de datos)
+│       │               │   ├── Autor.java             (Entidad Autor)
+│       │               │   └── Libro.java             (Entidad Libro)
+│       │               ├── repository/                (Conexión con BD)
+│       │               │   ├── AutorRepository.java   (Operaciones autores)
+│       │               │   └── LibroRepository.java   (Operaciones libros)
+│       │               ├── service/                   (Lógica principal)
+│       │               │   ├── APIService.java        (Consume API Gutendex)
+│       │               │   └── MenuService.java       (Menú interactivo)
+│       │               └── dto/                       (Objetos API)
+│       │                   └── DatosLibro.java        (Mapeo JSON)
+│       └── resources/
+│           └── application.properties       (Configuración PostgreSQL)
+└── pom.xml                                (Dependencias Maven)
 
 ## 🚀 Instalación y Ejecución (Paso a Paso)
 
